@@ -5,11 +5,12 @@ This module contains functions for loading, cleaning, and analyzing
 air quality data from an Italian city monitoring station.
 """
 
+
 import pandas as pd
 import numpy as np
 
 
-def load_data(file_path="data/AirQualityUCI.csv"):
+def load_data(file_path="/data/AirQualityUCI.csv"):
     """
     Load the air quality dataset from CSV file.
     
